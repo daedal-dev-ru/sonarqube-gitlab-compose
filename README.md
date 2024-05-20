@@ -46,7 +46,7 @@ sudo usermod -aG docker имя_докер_админа
 После чего назначим созданного пользователя **владельцем** нашей конфигурации.
 
 ```bash
-chown имя_докер_админа:docker docker-compose.yml*
+chown имя_докер_админа:docker docker-compose.yml
 ```
 
 ### Настройка docker-compose.yml
